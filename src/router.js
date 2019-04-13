@@ -35,6 +35,17 @@ export default new Router({
       path: '/tabbar/page/details',
       name: 'pageDetails',
       component: ()=>import('./views/tabbar/details.vue')
+    },
+    {
+      path: '/travel',
+      name: 'travel',
+      component: ()=>import('./views/travel')
+    },
+
+    {
+      path:'/dynamic',
+      name:'dynamic',
+      component: ()=>import('./views/vue/dynamic-component/dynamic.vue')
     }
   ],
     // 解决滚动到底部影响到其它页面

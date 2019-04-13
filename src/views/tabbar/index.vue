@@ -6,7 +6,7 @@
         <div class="content">
 
             <div @click="toDetails" v-for="(item,index) of 10" :key="index" flex="cross:center" style="padding:10px">
-                <img class="img" />
+                <img class="img"/>
                 <label class="text">item.title{{index}}</label>
             </div>
         </div>
