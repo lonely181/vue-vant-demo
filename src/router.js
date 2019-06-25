@@ -46,6 +46,12 @@ export default new Router({
       path:'/dynamic',
       name:'dynamic',
       component: ()=>import('./views/vue/dynamic-component/dynamic.vue')
+    },
+
+    {
+      path:'/axios',
+      name:'axios',
+      component: ()=>import('./views/axios/index.vue')
     }
   ],
     // 解决滚动到底部影响到其它页面
